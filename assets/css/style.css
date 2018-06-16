@@ -1,0 +1,50 @@
+body {
+    background-image: url(../images/pikachu.jpg);
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    color: #ffcc03;
+    font-family: cursive;
+}
+
+.jumbotron {
+    margin-top: 50px;
+    background-color: #3c59a5;
+}
+
+h1 {
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+#timeRemain {
+    font-size: 25px;
+}
+
+#start {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#clock {
+    font-size: 25px;
+}
+
+#questionBox{
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #ef4036
+}
+
+#submit {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#results {
+    font-size: 25px;
+}

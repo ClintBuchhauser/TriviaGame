@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Classic Pokémon Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+
+            <div id="game">
+
+                <h1>Classic Pokémon Trivia</h1>
+                <button type="button" class="btn btn-outline-light" id="start">Start</button>
+                <br>
+                <div id="timeRemain">Time Remaining:
+                    <span id="clock">1:00</span>
+                </div>
+                <br>
+
+                <div id="questionBox">
+
+                    <div id="q1" class="question">1. Which Pokemon was the first ever designed?</div>
+                    <!-- C is answer -->
+
+                    <form class="answersForm" id="a1">
+                        <input type="radio" name="answers1" value="a"> Pikachu
+                        <input type="radio" name="answers1" value="b"> Bublasaur
+                        <input type="radio" name="answers1" value="c"> Rhydon
+                        <input type="radio" name="answers1" value="d"> Charizard
+                    </form>
+                    <br>
+
+                    <div id="q2" class="question">2. Which Pokemon uses a Water Stone to evolve?</div>
+                    <!-- A is answer -->
+
+                    <form class="answersForm" id="a2">
+                        <input type="radio" name="answers2" value="a"> Staryu
+                        <input type="radio" name="answers2" value="b"> Goldeen
+                        <input type="radio" name="answers2" value="c"> Dratini
+                        <input type="radio" name="answers2" value="d"> Horsea
+                    </form>
+                    <br>
+
+                    <div id="q3" class="question">3. Who is categorized as the "Megaton Pokémon"?</div>
+                    <!-- D is answer -->
+
+                    <form class="answersForm" id="a3">
+                        <input type="radio" name="answers3" value="a"> Snorlax
+                        <input type="radio" name="answers3" value="b"> Machamp
+                        <input type="radio" name="answers3" value="c"> Onyx
+                        <input type="radio" name="answers3" value="d"> Golem
+                    </form>
+                    <br>
+
+                    <div id="q4" class="question">4. Which Pokémon is not in its final form?</div>
+                    <!-- B is answer -->
+
+                    <form class="answersForm" id="a4">
+                        <input type="radio" name="answers4" value="a"> Farfetch'd
+                        <input type="radio" name="answers4" value="b"> Kabuto
+                        <input type="radio" name="answers4" value="c"> Tangela
+                        <input type="radio" name="answers4" value="d"> Marowack
+                    </form>
+                    <br>
+
+                    <div id="q5" class="question">5. Which of these Pokémon is legendary?</div>
+                    <!-- D is answer -->
+
+                    <form class="answersForm" id="a5">
+                        <input type="radio" name="answers5" value="a"> Aerodactyl
+                        <input type="radio" name="answers5" value="b"> Dragonite
+                        <input type="radio" name="answers5" value="c"> Lapras
+                        <input type="radio" name="answers5" value="d"> Zapdos
+                    </form>
+                    <br>
+
+                    <div id="q6" class="question">6. How many Pokémon have more than one set of eyes?</div>
+                    <!-- C is answer -->
+
+                    <form class="answersForm" id="a6">
+                        <input type="radio" name="answers6" value="a"> 2
+                        <input type="radio" name="answers6" value="b"> 5
+                        <input type="radio" name="answers6" value="c"> 9
+                        <input type="radio" name="answers6" value="d"> 12
+                    </form>
+                    <br>
+
+                    <button type="button" class="btn btn-outline-light" id="submit">Submit Answers</button>
+
+                </div>
+
+                <div id="results">
+                    <div id="correctScore">Correct Answers: 0</div>
+                    <div id="incorrectScore">Missed Answers: 0</div>
+                    <div id="quote"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
